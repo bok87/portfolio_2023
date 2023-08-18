@@ -1,0 +1,48 @@
+/* profile */
+main #profile {
+}
+main #profile h1 {
+    text-align:center; padding: 175px 0;
+}
+main #profile h1 img {}
+main #profile .container {
+    display: flex; justify-content: center;
+    padding-bottom: 145px;
+}
+main #profile .container .photo {width: 300px;}
+main #profile .container .photo img {}
+main #profile .container .info {width: 50%;}
+main #profile .container .info h2 {
+    font-size: 1.5rem; font-weight: 500; margin-bottom: 59px;
+}
+main #profile .container .info dl {
+    display: flex; flex-flow: row warp; font-size: 1.25rem;
+    /* justify-content: center; */
+    /* width: 665px; */
+}
+/* main #profile .container .info dl > * {
+    line-height: 36px; border-bottom: 1px dashed #ccc;
+} */
+main #profile .container .info dl dt {width: 117px;}
+main #profile .container .info dl dd {width: calc(100% - 117px);}
+/* project */
+main #project_web1 {}
+main #project_web1 h1 {
+    font-size: 2.5rem; font-weight: 700; text-align: center;
+    padding: 50px 0;
+}
+main #project_web1 .link {
+    display: flex; justify-content: center; margin: 
+}
+main #project_web1 .link a {
+    font-size: 1.5rem; font-weight: 700; color:#fff;
+    border-radius: 20px; background-color: #262525; padding: 30px 40px;
+    margin-right: 10px;
+    
+}
+main #project_web1 .link a:last-child {margin-right: 0;}
+main #project_web1 .link a:hover {background-color: #FF3232;}
+main #project_web1 .preview {}
+main #project_web1 .preview img {}
+main #project_web1 .project_info {}
+main #project_web1 .project_info p {font-size: 1.25rem; margin}
